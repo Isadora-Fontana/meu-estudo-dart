@@ -1,4 +1,24 @@
-import 'dart:io';
+import 'dart:io'; //"Meu código -completo"
+
+void main(){
+  List<String> categoria = <String>["eletronicos" , "alimentos", "vestuario", "livros"];
+
+
+  print("Digite a categoria do produto (eletronicos, alimentos, vestuario, livros): ");
+  String entrada = stdin.readLineSync()!;
+
+  if (entrada != null){
+    if(entrada != ""){
+      if (categoria.contains(entrada)){
+        print("Categoria válida: $entrada");
+    } else{
+        print("Categoria inválida");
+    }
+    }
+  }
+}
+
+/*
 
 void main() {
   List<String> categorias = ['eletronicos', 'alimentos', 'vestuario', 'livros'];
@@ -19,3 +39,5 @@ String? validaCategoria(String? categoria, List<String> categorias) {
     return validaCategoria(categoria, categorias);
   }
 }
+
+*/
