@@ -2,11 +2,11 @@ import 'dart:convert';
 import 'dart:io';
 
 void main() {
-  print("Olá! Qual o seu nome?");
-  String? nome = stdin.readLineSync(encoding: utf8);
+  stdout.write('Olá! Qual o seu nome?\n');
+  String? nome = stdin.readLineSync(encoding: systemEncoding);
 
-  print("Qual a sua idade?");
-  String? idade = stdin.readLineSync();
+  stdout.write('Qual a sua idade?\n');
+  String? idade = stdin.readLineSync(encoding: systemEncoding);
 
-  print("Olá $nome, você tem $idade anos!");
+  print('Olá $nome, você tem $idade anos!');
 }
