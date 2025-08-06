@@ -29,7 +29,7 @@ void main(){
   do{
     resposta = getComando();
     if (resposta == "sim"){
-      print("Te amo muitooo mais e ponto final.");
+      print("Te amo muitooo mais e ponto final. Sem chances para me contrariar.");
     } else{
       print(respostasNegativas[random.nextInt(respostasNegativas.length)]);
       }

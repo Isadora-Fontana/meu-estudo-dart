@@ -30,6 +30,7 @@ List<String> adicionaNota(List<String> notas){
     print("Não é possível adicionar uma nota vazia");
     return adicionaNota(notas);
   }
+  
   notas.add(nota);
 
   return notas;
@@ -42,7 +43,9 @@ void listarNotas(List<String> notas){
 }
 
 void menu(List<String> notas){
+  print("");
   String comando = getComando();
+  print("");
 
   switch (comando) {
     case"1":
