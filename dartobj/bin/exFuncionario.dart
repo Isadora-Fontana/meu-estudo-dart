@@ -1,4 +1,4 @@
-import 'package:dartobj/exFuncionariosRest.dart';
+import '../lib/exFuncionariosRest.dart';
 void main(){
   Funcionario funcionarioIsadora = Gerente("Isadora", 50000);
   Funcionario funcionarioJoao = Cozinheiro("João", 50001);

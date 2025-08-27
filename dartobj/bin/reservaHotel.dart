@@ -1,4 +1,4 @@
-import 'package:dartobj/clienteHotel.dart';
+import '../lib/clienteHotel.dart';
 void main(){
   Cliente cliente = Cliente("Joaquim", []);
   cliente.fazerReserva("101");
