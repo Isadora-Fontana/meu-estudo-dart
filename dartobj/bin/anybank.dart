@@ -1,10 +1,12 @@
-import 'package:dartobj/conta.dart';
+import '../lib/conta.dart';
 void main() {
     Conta contaMatheus = Conta("Matheus", 1000);
     Conta contaRoberta = Conta("Roberta", 2000);
     ContaCorrente contaChris = ContaCorrente("Chris", 4000);
     ContaPoupanca contaDenize = ContaPoupanca("Denize", 4000);
+
     ContaSalario contaIsadora = ContaSalario("Isadora", 9000, "112334594", "Amagi");
+
 
 
     List<Conta> contas = <Conta>[contaMatheus, contaRoberta];
@@ -27,4 +29,5 @@ void main() {
 
     contaIsadora.depositarSalario(10000);
     contaIsadora.imprimeSaldo();
+
 }
