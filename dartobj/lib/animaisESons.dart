@@ -1,7 +1,7 @@
-// class Animal{
+// abstract class Animal{
 
 //   void emitirSom(){
-
+//     print("O animal emitiu um som.");
 //   }
 // }
 
@@ -15,7 +15,6 @@
 //   void arranharMoveis(){
 //     print("O gato está arranhando os móveis.");
 //   }
-
 // }
 
 // class Cachorro extends Animal{
@@ -34,7 +33,7 @@
 
 //4. Representando quartos com herança
 
-class Quarto{
+abstract class Quarto{
   String tipo;
   double valorDiaria;
   int diarias;
