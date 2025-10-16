@@ -1,3 +1,4 @@
+
 class Ingrediente {
   String nome;
   String tipo;
@@ -29,6 +30,7 @@ class Legume extends Ingrediente{
   void detalhes(){
     super.detalhes();
     print("Detalhe: Em geral, são cozidos nas receitas.");
+
   }
 
 }
@@ -42,7 +44,6 @@ class Tempero extends Ingrediente{
     super.detalhes();
     print("Detalhe: São usados para realçar melhor os sabores de outros alimentos.");
   }
-
 }
 
 void main() {
